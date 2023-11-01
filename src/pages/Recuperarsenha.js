@@ -1,6 +1,6 @@
 import React from 'react';
 import './Global.css';
-import Logo from'../img/logo.png';
+
 
 function Recuperarsenha() {
   const handleSubmit = (event) => {
@@ -45,7 +45,7 @@ function Recuperarsenha() {
         <aside className="aside-cadastro aside-cadastro-recuperacao">
           <div className="div-logo div-logo-cadastro">
             <a href="index.html">
-              <img className="img-logo" src={Logo} alt="logo-lifeTidy" />
+              <img className="img-logo" src="/img/logo.png" alt="logo-lifeTidy" />
             </a>
           </div>
         </aside>

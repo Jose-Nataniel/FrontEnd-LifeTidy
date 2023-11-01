@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../img/logo.png'; // Importe o caminho correto para a imagem do logotipo
+ // Importe o caminho correto para a imagem do logotipo
 import './Global.css'; // Se você tiver estilos CSS para esta página
 
 function contaCriada() {
@@ -8,7 +8,7 @@ function contaCriada() {
         <div className="form-login div-recuperacao-senha">
           <div className="div-logo div-logo-recuperacao">
             <a href="index.html">
-              <img className="img-logo img-logo-recuperacao" src={Logo} alt="logo-lifeTidy" />
+              <img className="img-logo img-logo-recuperacao" src="/img/logo.png" alt="logo-lifeTidy" />
             </a>
           </div>
 

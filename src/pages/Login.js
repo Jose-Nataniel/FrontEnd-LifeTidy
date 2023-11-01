@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Global.css'; 
-import Logo from '../img/logo.png'
+
 
  // Certifique-se de criar um arquivo CSS correspondente, se necessário.
 
@@ -30,7 +30,7 @@ class Login extends Component {
       <form className="form-login" action="">
         <div className="div-logo">
           <a href="index.html">
-            <img className="img-logo" src={Logo} alt="logo-lifeTidy" />
+            <img className="img-logo" src="/img/logo.png" alt="logo-lifeTidy" />
           </a>
         </div>
         <div className="div-inputs-login">

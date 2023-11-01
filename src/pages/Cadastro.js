@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import './Global.css';
-import Logo from '../img/logo.png';
-import Exibicao from '../img/exibição.jpg';
 import axios from 'axios';
 
 class Cadastro extends Component {
@@ -73,7 +71,7 @@ class Cadastro extends Component {
           <aside className="aside-cadastro">
             <div className="div-logo div-logo-cadastro">
               <a href="index.html">
-                <img className="img-logo" src={Logo} alt="logo-lifeTidy" />
+              <img className="img-logo" src="/img/logo.png" alt="logo-lifeTidy" />
               </a>
             </div>
             <div className="div-recados-cadastro">
@@ -83,7 +81,7 @@ class Cadastro extends Component {
               </p>
             </div>
             <div className="div-img-exibição">
-              <img className="img-exibição" src={Exibicao} alt="Imagem de Exibição" />
+              <img className="img-exibição" src="/img/exibição.jpg" alt="Imagem de Exibição" />
             </div>
           </aside>
         </div>

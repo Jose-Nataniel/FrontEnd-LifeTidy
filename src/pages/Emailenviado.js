@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../img/logo.png'; // Importe o caminho correto para a imagem do logotipo
+ // Importe o caminho correto para a imagem do logotipo
 import './Global.css'; // Se você tiver estilos CSS para esta página
 
 function Emailenviado() {
@@ -8,7 +8,7 @@ function Emailenviado() {
         <div className="form-login div-recuperacao-senha">
           <div className="div-logo div-logo-recuperacao">
             <a href="index.html">
-              <img className="img-logo img-logo-recuperacao" src={logo} alt="logo-lifeTidy" />
+              <img className="img-logo img-logo-recuperacao" src="/img/logo.png" alt="logo-lifeTidy" />
             </a>
           </div>
           <h2 className="h2-cadastro h2-cadastro-recuperacao">RECUPERAR SENHA</h2>
