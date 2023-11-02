@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Global.css';
 import axios from 'axios';
+import {  Link } from "react-router-dom";
 
 class Cadastro extends Component {
   constructor(props) {
@@ -61,10 +62,12 @@ class Cadastro extends Component {
               <input className="inputs input-telefone" type="text" name="telefone" value={telefone} onChange={this.handleChange} placeholder="TELEFONE" required />
               <div className="div-texto">
                 <p className="p-login">JÁ POSSUI CADASTRO?</p>
-                <a className="link-cadastro" href="/login">Login!</a>
+                <Link to = "/login" className="link-cadastro">Login!</Link>
               </div>
               <div className="div-login-com">
+                <Link to="/Contacriada">
                 <button className="button-login-cadastro" type="submit">CADASTRAR</button>
+                </Link>
               </div>
             </form>
           </main>

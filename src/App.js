@@ -2,6 +2,8 @@ import { Routes, Route, Outlet, Link } from "react-router-dom";
 import Inicio from "./pages/Inicio";
 import Cadastro from "./pages/Cadastro";
 import Login from "./pages/Login";
+import Conta from "./pages/Contacriada";
+import Recuperar from "./pages/Recuperarsenha";
 
 export default function App() {
   return (
@@ -11,6 +13,8 @@ export default function App() {
           <Route index element={<Inicio />} />
           <Route path="Cadastro" element={<Cadastro />} />
           <Route path="Login" element={<Login />} />
+          <Route path="Contacriada" element={<Conta />} />
+          <Route path ="Recuperarsenha" element={<Recuperar/>}/>
 
           <Route path="*" element={<NoMatch />} />
         </Route>

@@ -1,6 +1,7 @@
 import React from 'react';
  // Importe o caminho correto para a imagem do logotipo
 import './Global.css'; // Se você tiver estilos CSS para esta página
+import {  Link } from "react-router-dom";
 
 function contaCriada() {
     return (
@@ -18,7 +19,7 @@ function contaCriada() {
             <p className="p-informacoes-desempenho p-contaCriada">CONTA CRIADA COM SUCESSO!</p>
           </div>
           <div className="div-texto">
-            <a className="link-button-voltar" href="login.html">VAMOS LÁ</a>
+            <Link to ="/Login" className="link-button-voltar" >VAMOS LÁ</Link>
           </div>
         </div>
       </main>

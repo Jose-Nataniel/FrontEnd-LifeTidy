@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Global.css'; 
+import {  Link } from "react-router-dom";
 
 
  // Certifique-se de criar um arquivo CSS correspondente, se necessário.
@@ -39,12 +40,12 @@ class Login extends Component {
         </div>
         <div className="div-texto div-texto-sem-borda">
           <p className="p-login p-esqueceu-senha">ESQUECEU A SENHA?</p>
-          <a className="link-cadastro" href="recuperarSenha.html">Recuperar</a>
+          <Link to = "/Recuperarsenha" className="link-cadastro" >Recuperar</Link>
         </div>
         <button className="button-login-cadastro" type="submit">LOGIN</button>
         <div className="div-texto">
           <p className="p-login">NÃO TEM CADASTRO?</p>
-          <a className="link-cadastro" href="cadastro.html">Inscreva-se</a>
+          <Link to="/Cadastro" className="link-cadastro">Inscreva-se</Link>
         </div>
       </form>
     </main>
