@@ -42,9 +42,7 @@ class Login extends Component {
           <p className="p-login p-esqueceu-senha">ESQUECEU A SENHA?</p>
           <Link to = "/Recuperarsenha" className="link-cadastro" >Recuperar</Link>
         </div>
-        <Link to ="/Home">
         <button className="button-login-cadastro" type="submit">LOGIN</button>
-        </Link>
         <div className="div-texto">
           <p className="p-login">NÃO TEM CADASTRO?</p>
           <Link to="/Cadastro" className="link-cadastro">Inscreva-se</Link>
