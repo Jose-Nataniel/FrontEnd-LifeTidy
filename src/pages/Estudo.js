@@ -1,8 +1,9 @@
 
 
-import Header from '../Header';
-import 'font-awesome/css/font-awesome.min.css';
-import Menu from '../Menu';
+import Header from '../components/Header';
+import '@fortawesome/fontawesome-free/css/all.min.css'; 
+
+import Menu from '../components/Menu';
 import { FaPlus } from 'react-icons/fa';
 import { FaThList } from 'react-icons/fa';
 

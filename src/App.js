@@ -5,6 +5,9 @@ import Login from "./pages/Login";
 import Conta from "./pages/Contacriada";
 import Recuperar from "./pages/Recuperarsenha";
 import Home from "./pages/Home";
+import Estudo from "./pages/Estudo";
+
+
 
 export default function App() {
   return (
@@ -17,6 +20,7 @@ export default function App() {
           <Route path="Contacriada" element={<Conta />} />
           <Route path ="Recuperarsenha" element={<Recuperar/>}/>
           <Route path ="Home" element={<Home/>}/>
+          <Route path ="Estudo" element={<Estudo/>}/>
 
           <Route path="*" element={<NoMatch />} />
         </Route>

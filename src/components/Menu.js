@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState} from 'react';
+import { Link } from 'react-router-dom';
 import { FaBars, FaTimes, FaHome, FaCalendar, FaCalendarMinus, FaBook, FaShoppingCart } from 'react-icons/fa';
 
 const Menu = () => {
@@ -36,9 +37,10 @@ const Menu = () => {
             </div>
             <div className="borda"></div>
             <div className="item">
-              <a href="#">
+              <Link to = "/Estudo">
                 <FaBook /> ESTUDO
-              </a>
+                </Link>
+              
             </div>
             <div className="item">
               <a href="compras.html">
